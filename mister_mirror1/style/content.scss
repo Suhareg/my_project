@@ -1,0 +1,752 @@
+#content
+{
+    float: left; 
+    width: 100%;
+    background: url('../img/kist.png') no-repeat top 4% right 20%,
+                url('../img/foto13.jpg') no-repeat top 5.5% right 28%,
+                url('../img/persik.png') no-repeat top 1.5% right 18%;
+    background-size: 13% 8%, 30% 10%, 20%;  
+    .abz4
+    {
+        float: left; 
+        margin-left: 20%; 
+        margin-top: 8.6%; 
+        width: 60%; 
+        font-family: Proxima;
+        font-size: 1.4vw; 
+        letter-spacing: 0.01em; 
+        line-height: 1.8em; 
+    }
+    #left 
+    {
+        float: left; 
+        margin-left: 23.4%; 
+        width: 27.4%; 
+        margin-top: 7.4%; 
+        font-family: Proxima;
+        font-size: 1.1vw; 
+        .punkt1
+        {
+            float: left; 
+            width: 100%; 
+            font-size: 2.2vw; 
+            margin-top: 10%; 
+        }
+        .sp3
+        {
+            float: left; 
+            width: 100%; 
+            margin-top: 8%; 
+            line-height: 1.8em; 
+        }
+        a
+        {
+            float: left; 
+            margin-top: 10%; 
+            padding-top: 2.4%; 
+            padding-bottom: 2.4%; 
+            width: 35%; 
+            color: $cvet2; 
+            border: 0.5px solid $cvet3; 
+            background: url('../img/str.png') no-repeat top 50% left 15%; 
+            background-size: 10%; 
+            font-size: 0.92vw; 
+            padding-left: 15%; 
+       transition-property: background-color; 
+        transition-duration: 1s;
+        -moz-transition-property: background-color; 
+        -moz-transition-duration: 1s;
+        -webkit-transition-property: background-color; 
+        -webkit-transition-duration: 1s;
+        -o-transition-property: background-color; 
+        -o-transition-duration: 1s;
+            }
+    a:hover 
+    {
+        background: none; 
+        background-color: #FF8C00;  
+        color: $cvet1;     
+    }
+    }
+    #right
+    {
+        float: right;
+        margin-top: 7.4%; 
+        margin-right: 20%; 
+        width: 29.2%; 
+        color: $cvet1; 
+        padding-bottom: 5%; 
+        font-family: $font1; 
+
+                .punkt2
+        {
+            float: left; 
+            width: 80%; 
+            margin-left: 14%; 
+            font-size: 2.2vw; 
+            margin-top: 10%;
+             letter-spacing: 0.08em;
+        }
+        .sp3
+        {
+            float: left; 
+            width: 80%; 
+            margin-left: 14%; 
+            margin-top: 8%; 
+            line-height: 1.8em; 
+            font-size: 1.1vw;
+        }
+           a
+        {
+            float: left; 
+            margin-top: 18%; 
+            padding-top: 2.4%; 
+            padding-bottom: 2.4%; 
+             padding-left: 20%; 
+            width: 63%; 
+            color: $cvet1; 
+            border: 0.5px solid $cvet3; 
+            background: url('../img/krs2.png') no-repeat top 50% left 10%; 
+            background-size: 10%; 
+            font-size: 0.99vw; 
+        transition-property: background-color; 
+        transition-duration: 1s;
+        -moz-transition-property: background-color; 
+        -moz-transition-duration: 1s;
+        -webkit-transition-property: background-color; 
+        -webkit-transition-duration: 1s;
+        -o-transition-property: background-color; 
+        -o-transition-duration: 1s;
+            }
+    a:hover 
+    {
+        background: none; 
+        background-color: #FF8C00;      
+    }
+    }
+    .punkt3
+    {
+        float: left; 
+        font-family: Proxima;
+        margin-left: 20%;
+        width: 60%; 
+        font-size: 2.2vw; 
+        margin-top: 7.4%; 
+    }
+    #product
+    {
+        float: left; 
+        margin-left: 20%; 
+        width: 60%; 
+        display: inline-block; 
+        list-style: none; 
+        li 
+        {
+            float: left; 
+            width: 25%; 
+            margin-top: 8%; 
+            div
+            {
+            	float: left; 
+            	width: 100%; 
+                img 
+           
+    {
+        position: absolute; 
+        width: 13.8%; 
+        height: auto; 
+        height: auto/9; 
+    }
+        }}
+        .zagolovok1
+        {
+            float: left; 
+            width: 100%; 
+            font-family: $font3; 
+            font-size: 1.02vw; 
+            margin-top: 130%; 
+            padding-bottom: 6%; 
+            background: url('../img/lin.png') no-repeat bottom left; 
+            background-size: 90% 4%; 
+        } 
+        .text1
+        {
+            float: left; 
+            width: 100%; 
+            font-family: $font1;
+            font-size: 0.88vw; 
+            margin-top: 7%; 
+            color: $cvet2; 
+            opacity: .8; 
+        }
+        .stoim1
+        {
+            float: left; 
+            width: 100%; 
+            font-family: $font3;
+            color: $cvet3; 
+            font-size: 1.06vw; 
+            margin-top: 8%; 
+        }
+        a
+        {
+            float: left; 
+            width: 46%;
+            margin-top: 18%;  
+            padding-top: 6.6%; 
+            padding-bottom: 6.6%; 
+            padding-left: 25%; 
+            font-family: $font1; 
+            background: url('../img/str.png') no-repeat top 50% left 14%; 
+            background-size: 14%; 
+            border: 0.5px solid $cvet3;
+            font-size: 0.94vw; 
+            color: $cvet2;
+        transition-property: background-color; 
+        transition-duration: 1s;
+        -moz-transition-property: background-color; 
+        -moz-transition-duration: 1s;
+        -webkit-transition-property: background-color; 
+        -webkit-transition-duration: 1s;
+        -o-transition-property: background-color; 
+        -o-transition-duration: 1s;
+            }
+    a:hover 
+    {
+        background: none; 
+        background-color: #FF8C00;   
+        color: $cvet1;   
+    }
+    }
+    #art 
+    {
+        float: left; 
+        width: 100%; 
+        background: url('../img/art.jpg') no-repeat; 
+        background-size: 100%; 
+        margin-top: 7.6%; 
+        #left2 
+        {
+            float: left; 
+            margin-left: 20%; 
+            margin-top: 35.8%; 
+            padding-left: 7%; 
+            width: 20%; 
+            font-family: $font1; 
+            color: $cvet1; 
+            font-size: 0.78vw; 
+            line-height: 1.4em; 
+            letter-spacing: 0.026em; 
+            span
+            {
+                font-family: $font2;
+            }
+        }
+        #right2
+        {
+            float: left; 
+            width: 33%; 
+            margin-top: 10%; 
+            font-family: $font1;
+            font-size: 0.88vw; 
+            color: $cvet1;
+            line-height: 2.2em; 
+            .hesh 
+            {
+                font-family: $font2; 
+                font-size: 2vw; 
+                letter-spacing: 0.1em;
+
+            }
+            .mision
+            {
+                color: $cvet3; 
+                font-size: 2vw; 
+                letter-spacing: 0.1em;
+            }
+            .mir 
+            {
+                font-size: 2vw; 
+                letter-spacing: 0.1em;
+            }
+            .text4
+            {
+                float: left; 
+                margin-top: 12%; 
+                margin-left: 10%; 
+                width: 90%; 
+                font-size: 0.94vw; 
+            }
+            #vkont
+            {
+                float: left; 
+                margin-top: 5%; 
+                margin-left: 10%;
+                width: 85%; 
+                color: $cvet1; 
+                font-size: 0.98vw;  
+                letter-spacing: 0.02em; 
+                transition-property: color;
+                transition-duration: 0.5s; 
+                -moz-transition-property: color;
+                -moz-transition-duration: 0.5s; 
+                -webkit-transition-property: color;
+                -webkit-transition-duration: 0.5s; 
+                -o-transition-property: color;
+                -o-transition-duration: 0.5s; 
+                img
+                {
+                    float: left;
+                    margin-top: 2%; 
+                    width: 5%; 
+                    height: auto;
+                    height: auto/9; 
+                }
+                span
+                {
+                   float: left; 
+                   margin-left: 5%; 
+                }
+
+            }
+            #vkont:hover 
+            {
+                color: $cvet3;
+            }
+            #insta
+            {
+                float: left; 
+                margin-left: 10%;
+                width: 85%; 
+                color: $cvet1; 
+                font-size: 0.98vw; 
+                letter-spacing: 0.02em;  
+                margin-top: 2%; 
+                 transition-property: color;
+                transition-duration: 0.5s; 
+                -moz-transition-property: color;
+                -moz-transition-duration: 0.5s; 
+                -webkit-transition-property: color;
+                -webkit-transition-duration: 0.5s; 
+                -o-transition-property: color;
+                -o-transition-duration: 0.5s; 
+                img
+                {
+                    float: left;
+                    margin-top: 1%; 
+                    width: 5%; 
+                    height: auto;
+                    height: auto/9; 
+                }
+                span
+                {
+                   float: left; 
+                   margin-left: 5%; 
+                }
+                
+            }
+              #insta:hover 
+            {
+                color: $cvet3;
+            }
+        }
+        .abz6 
+        {
+            float: left; 
+            margin-left: 20%; 
+            margin-top: 13%; 
+            width: 60%; 
+            font-family: $font1; 
+            font-size: 1.1vw; 
+            color: $cvet1; 
+            line-height: 2em;
+               overflow: hidden;  
+            .punkt5
+            {
+                float: left; 
+                width: 100%; 
+                font-size: 2vw; 
+                letter-spacing: 0.03em; 
+            }
+            .d1
+            {
+                float: left; 
+                width: 33.3%; 
+                margin-top: 13%; 
+                background-size: 100%; 
+                font-size: 0.8vw;
+                line-height: 1.8em; 
+                padding-bottom: 33.2%;
+                   overflow: hidden; 
+                img
+                {
+                    position: absolute;
+                    margin-left: 4%; 
+                    width: 2.5%; 
+                    height: auto;
+                    height: auto/9; 
+                }
+                .zagolovok2
+                {
+                    position: absolute; 
+                    margin-left: 4%; 
+                    margin-top: 5%; 
+                    font-size: 1.1vw; 
+                    font-family: $font2; 
+                }
+                .text2 
+                {
+                    position: absolute;
+                    margin-left: 4%;  
+                    text-align: left; 
+                    margin-top: 7.5%; 
+                }
+                .t
+                {
+                    display: none;
+                }
+            }
+             .d2
+            {
+                float: left; 
+                width: 33.3%; 
+                margin-top: 13%; 
+                background-size: 100%; 
+                font-size: 0.8vw;
+                line-height: 1.8em; 
+                padding-bottom: 33.2%;
+
+                img
+                {
+                    position: absolute;
+                    margin-left: 4%; 
+                    width: 4%; 
+                    height: auto;
+                    height: auto/9; 
+                }
+               .zagolovok3
+                {
+                    position: absolute; 
+                    margin-left: 4%; 
+                    margin-top: 5%; 
+                    font-size: 1.1vw; 
+                    font-family: $font2; 
+                }
+                .text2 
+                {
+                    position: absolute;
+                    margin-left: 4%;  
+                    text-align: left; 
+                    margin-top: 7.5%; 
+                }
+                 .t2
+                {
+                    display: none;
+                }
+            }
+            .d3
+            {
+                float: left; 
+                width: 33.3%; 
+                margin-top: 13%; 
+                background-size: 100%; 
+                font-size: 0.8vw;
+                line-height: 1.8em; 
+                padding-bottom: 33.2%;
+                img
+                {
+                    position: absolute;
+                    margin-left: 4%; 
+                    width: 4%; 
+                    height: auto;
+                    height: auto/9; 
+                }
+                .zagolovok3
+                {
+                    position: absolute; 
+                    margin-left: 4%; 
+                    margin-top: 5%; 
+                    font-size: 1.1vw; 
+                    font-family: $font2; 
+                }
+                .text2 
+                {
+                    position: absolute;
+                    margin-left: 4%;  
+                    text-align: left; 
+                    margin-top: 7.5%; 
+                }
+                 .t3
+                {
+                    display: none;
+                }
+            }
+            .d4
+            {
+                float: left; 
+                width: 33.3%; 
+                margin-top: 4%; 
+                background-size: 100%; 
+                font-size: 0.8vw;
+                line-height: 1.8em; 
+                padding-bottom: 33.2%;
+                img
+                {
+                    position: absolute;
+                    margin-left: 4%; 
+                    width: 3%; 
+                    height: auto;
+                    height: auto/9; 
+                }
+                .zagolovok3
+                {
+                    position: absolute; 
+                    margin-left: 4%; 
+                    margin-top: 5%; 
+                    font-size: 1.1vw; 
+                    font-family: $font2; 
+                }
+                .text2 
+                {
+                    position: absolute;
+                    margin-left: 4%;  
+                    text-align: left; 
+                    margin-top: 7.5%; 
+                }
+                 .t4
+                {
+                    display: none;
+                }
+            }
+            .d5
+            {
+                float: left; 
+                width: 33.3%; 
+                margin-top: 4%; 
+                background-size: 100%; 
+                font-size: 0.8vw;
+                line-height: 1.8em; 
+                padding-bottom: 33.2%;
+                img
+                {
+                    position: absolute;
+                    margin-left: 4%; 
+                    width: 4.2%; 
+                    height: auto;
+                    height: auto/9; 
+                }
+                .zagolovok3
+                {
+                    position: absolute; 
+                    margin-left: 4%; 
+                    margin-top: 5%; 
+                    font-size: 1.1vw; 
+                    font-family: $font2; 
+                }
+                .text2 
+                {
+                    position: absolute;
+                    margin-left: 4%;  
+                    text-align: left; 
+                    margin-top: 7.5%; 
+                }
+                .t5
+                {
+                    display: none; 
+                }
+            }
+           
+        }
+    }
+    #abz7
+    {
+        float: left; 
+        margin-left: 20%; 
+        margin-top: 13.4%; 
+        width: 60%; 
+        font-family: $font1;
+        font-size: 0.86vw; 
+        .punkt6
+        {
+            float: left; 
+            font-size: 2vw; 
+            width: 100%; 
+        }
+        .bl1 
+        {
+            float: left; 
+            width: 48%; 
+            margin-top: 10%; 
+            background: url('../img/foto4.jpg');
+            background-size: 100%; 
+            padding-bottom: 30%; 
+            .zagolovok4
+            {
+                position: absolute; 
+                font-family: $font2; 
+                font-size: 1.1vw; 
+                margin-top: 4%; 
+                color: $cvet1; 
+                margin-left: 3%; 
+            }
+            .text3
+            {
+                position: absolute; 
+                margin-top: 6%; 
+                color: $cvet1; 
+                margin-left: 3%; 
+                line-height: 1.7em; 
+            }
+            a
+            {
+                position: absolute; 
+                margin-top: 13%; 
+                margin-left: 3%;
+                width: 20%;
+                color: $cvet1; 
+                img 
+                { 
+                   float: left;  
+                    width: 5%; 
+                    height: auto; 
+                    height:auto/9; 
+                }
+            }
+        }
+        .bl2 
+        {
+            float: left; 
+            margin-left: 4%; 
+            width: 23%; 
+            margin-top: 10%; 
+            background: url('../img/foto6.jpg');
+            background-size: 100%; 
+            padding-bottom: 30%; 
+
+        }
+          .bl3
+        {
+            float: left; 
+            margin-left: 6%; 
+            width: 23%; 
+            margin-top: 3%; 
+            background: url('../img/foto8.jpg');
+            background-size: 100%; 
+            padding-bottom: 30%; 
+
+        }
+          .bl4 
+        {
+            float: left; 
+            margin-left: 4%; 
+            width: 23%; 
+            margin-top: 3%; 
+            background: url('../img/foto8.jpg');
+            background-size: 100%; 
+            padding-bottom: 30%; 
+
+        }
+          .bl5
+        {
+            float: left; 
+            margin-left: 4%; 
+            width: 23%; 
+            margin-top: 3%; 
+            background: url('../img/foto6.jpg');
+            background-size: 100%; 
+            padding-bottom: 30%; 
+
+        }
+          .bl6
+        {
+            float: left; 
+            margin-left: 20%; 
+            width: 23%; 
+            margin-top: 3%; 
+            background: url('../img/foto6.jpg');
+            background-size: 100%; 
+            padding-bottom: 30%; 
+
+        }
+          .bl7
+        {
+            float: left; 
+            margin-left: 4%; 
+            width: 48%; 
+            margin-top: 3%; 
+            background: url('../img/foto9.jpg');
+            background-size: 100%; 
+            padding-bottom: 30%; 
+
+        }
+    }
+    #abz8
+    {
+        float: left; 
+        margin-left: 20%; 
+        margin-top: 11%; 
+        width: 60%; 
+        font-family: $font1;
+        font-size: 0.9vw; 
+        margin-bottom: 9%; 
+        .left3 
+        {
+            float: left; 
+            margin-left: 6%; 
+            width: 44%; 
+            padding-bottom: 66%; 
+            background: url('../img/foto10.jpg'); 
+            background-size: 100%;  
+        }
+        .right3
+        {
+            float: left; 
+            width: 50%; 
+            padding-bottom: 66%; 
+            .punkt7
+            {
+                position: absolute;
+                margin-top: 6.4%; 
+                margin-left: 9%; 
+                font-size: 2.4vw; 
+            }
+            .text5
+            {
+                position: absolute; 
+                margin-top: 14%; 
+                margin-left: 9%; 
+                line-height: 2em; 
+                font-size: 1vw; 
+            }
+            a
+            {
+                position: absolute;
+                margin-top: 34.6%; 
+                margin-left: 9%; 
+                padding-left: 4%; 
+                width: 10%; 
+                border: 0.5px solid $cvet3; 
+                padding-bottom: 1%; 
+                padding-top: 1%; 
+                background: url('../img/str.png') no-repeat top 50% left 14%; 
+                background-size: 10%; 
+                font-size: 0.98vw; 
+                color: $cvet2; 
+           transition-property: background-color; 
+        transition-duration: 1s;
+        -moz-transition-property: background-color; 
+        -moz-transition-duration: 1s;
+        -webkit-transition-property: background-color; 
+        -webkit-transition-duration: 1s;
+        -o-transition-property: background-color; 
+        -o-transition-duration: 1s;
+            }
+    a:hover 
+    {
+        background: none; 
+        background-color: #FF8C00;   
+        color: $cvet1;   
+    }
+        }
+    }
+}

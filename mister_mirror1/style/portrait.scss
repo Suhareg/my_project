@@ -1,0 +1,707 @@
+$cvet1: white; 
+$cvet2: black; 
+$cvet3: #FF8C00;
+$font1: Proximal; 
+$font2: Proximab;
+$font3: Proximaex; 
+@import "fonts.scss";
+@media (max-width: 460px)
+{
+header 
+{
+    background: none, 
+                url('../img/mh.png') no-repeat;
+    background-size: 100% 130%; 
+    .logo
+    {
+        width: 30%; 
+        margin-left: 5%; 
+        margin-top: 3.6%; 
+    }
+    .vibor
+    {
+        display: none; 
+    }
+    .phone  
+    {
+        width: 60%; 
+        margin-top: 8%; 
+        background: url('../img/iphone.png') no-repeat top left 12%; 
+        background-size: 4%; 
+        span
+        {
+            display: none;
+        }
+        a
+        {
+            display: block; 
+            float: left; 
+            width: 80%; 
+            margin-left: 20%;
+            color: $cvet1;
+            font-size: 3.4vw;
+            text-align: left;
+        }
+    }
+    #fabrika
+    {
+        margin-left: 10%; 
+        font-size: 1.8vw;
+        width: 80%; 
+        margin-top: 1.4%; 
+    }
+    #abz1
+    {
+        margin-left: 5%; 
+        width: 90%; 
+        margin-top: 6.6%; 
+        font-size: 4.4vw; 
+        color: $cvet1;
+        letter-spacing: 0.01em;  
+    }
+    #abz2
+    {
+        margin-left: 5%; 
+        width: 90%;
+        font-size: 1.7vw; 
+        margin-top: 3.5%; 
+        line-height: 1.6em; 
+        letter-spacing: 0.01em;  
+    }
+    #test
+    {
+        margin-left: 5%; 
+        margin-top: 7%; 
+        width: 40%;
+        padding-left: 0; 
+        padding-bottom: 3%; 
+        padding-top: 3%; 
+        font-size: 2.1vw; 
+        letter-spacing: 0.04em;
+        border: 0.5px solid $cvet3;
+        background: none; 
+        margin-bottom: 10%; 
+        background-color: #FF8C00;  
+        font-family: $font2;
+        text-align: center; 
+     }
+    .abz3
+    {
+        display: none;
+    }
+}
+}
+#content
+{
+    background: none,
+                none,
+                url('../img/persik.png') no-repeat top 1.5% right 18%;
+    background-size: 13% 8%, 30% 10%, 20%;  
+    overflow: hidden; 
+    .abz4
+    {
+        margin-left: 5%; 
+        margin-top: 6%; 
+        width: 90%; 
+        font-size: 2.6vw; 
+        line-height: 1.6em; 
+    }
+    #left 
+    {
+        margin-left: 10%; 
+        width: 80%; 
+        font-size: 2.6vw; 
+        background: url('../img/foto13.jpg') no-repeat; 
+        background-size: 100%; 
+        color: $cvet1; 
+        cursor: pointer;
+        .punkt1
+        {
+            margin-left: 15%; 
+            width: 70%; 
+            font-size: 3.6vw; 
+        }
+        .sp3
+        {
+            margin-left: 15%; 
+            width: 70%; 
+        }
+        a
+        {
+            padding-top: 3%; 
+            padding-bottom: 3%;
+            padding-left: 0;  
+            width: 60%; 
+            margin-bottom: 24.4%; 
+            margin-top: 20%; 
+            color: $cvet1; 
+            border: 0.5px solid $cvet3; 
+            background: none; 
+            background-color: $cvet3;
+            font-size: 2.4vw; 
+            font-family: $font2;
+            text-align: center;
+            }
+    }
+    #right
+    {
+        margin-right: 10%; 
+        width: 80%; 
+        color: $cvet1; 
+        padding-bottom: 10%; 
+        font-family: $font1; 
+        background: url('../img/foto13.jpg') no-repeat; 
+        background-size: 100%; 
+        display: none;
+        opacity: 0; 
+                .punkt2
+        {
+            width: 70%; 
+            margin-left: 15%; 
+            font-size: 3.6vw; 
+            margin-top: 10%;
+        }
+        .sp3
+        {
+            width: 70%; 
+            margin-left: 15%; 
+            font-size: 2.6vw;
+        }
+           a
+        {
+            padding-top: 3%; 
+            padding-bottom: 3%; 
+             padding-left: 0; 
+            width: 80%; 
+            background: none; 
+            background-color: $cvet3;
+            font-size: 2.6vw; 
+            font-family: $font2;
+            text-align: center;
+            }
+    }
+    .punkt3
+    {
+        margin-left: 5%;
+        width: 90%; 
+        font-size: 4vw; 
+    }
+    #product
+    {
+        margin-left: 5%; 
+        width: 90%; 
+        li 
+        {
+            width: 90%; 
+            padding-top: 5%; 
+            margin-left: 5%; 
+            box-shadow: -2px -2px 45px -16px $cvet3; 
+            div 
+            {
+                img 
+                {
+            width: 50%;
+            margin-left: 16%; 
+                }
+            }
+        }
+        .zagolovok1
+        {
+            font-size: 3.6vw; 
+            margin-top: 92%;
+            margin-left: 8%; 
+            padding-bottom: 4%; 
+            background: url('../img/lin.png') no-repeat bottom left; 
+            background-size: 50% 4%; 
+        } 
+        .text1
+        {
+            font-size: 3vw; 
+            margin-top: 5%; 
+            margin-left: 8%;
+        }
+        .stoim1
+        {
+            width: 84%; 
+            margin-left: 8%; 
+            font-size: 3.4vw; 
+            margin-top: 6%; 
+        }
+        a
+        {
+            width: 50%;
+            margin-top: 6%; 
+            margin-left: 8%;  
+            padding-top: 4%;
+            margin-bottom: 6%;  
+            padding-bottom: 4%; 
+            padding-left: 0; 
+            font-family: $font2; 
+            background: none; 
+            background-color: $cvet3;
+            font-size: 3vw; 
+            color: $cvet1;
+            text-align: center;
+            }
+            #l2 
+            {
+                display: none; 
+                opacity: 0; 
+            }
+              #l3 
+            {
+                display: none;
+                opacity: 0;  
+            }
+              #l4 
+            {
+                display: none;
+                opacity: 0;  
+            }
+              #l5 
+            {
+                display: none;
+                opacity: 0;  
+            }
+              #l6 
+            {
+                display: none;
+                opacity: 0;  
+            }
+              #l7 
+            {
+                display: none; 
+                opacity: 0; 
+            }
+              #l8 
+            {
+                display: none; 
+                opacity: 0; 
+            }
+}
+    #art 
+    {
+        background: none, 
+                    url('../img/mh.png') no-repeat; 
+        background-size: 100% 100%; 
+        overflow: hidden; 
+        #left2 
+        {
+            display: none; 
+        }
+        #right2
+        {
+            display: none; 
+        }
+        .abz6 
+        { 
+            margin-left: 5%; 
+            margin-top: 8%; 
+            width: 90%; 
+            font-size: 2.4vw; 
+            color: $cvet1;  
+            letter-spacing: 0.01em;    
+            overflow: hidden;     
+            .punkt5
+            {
+                font-size: 4vw; 
+                letter-spacing: 0.03em; 
+            }
+            .d1
+            {
+                width: 100%; 
+                margin-top: 0; 
+                font-size: 2.6vw;
+                line-height: 1.8em; 
+                padding-bottom: 25%;
+                margin-left: 0; 
+                img
+                {
+                    position: absolute;
+                    margin-top: 4%; 
+                    margin-left: 0; 
+                    width: 5.5%; 
+                }
+                .zagolovok2
+                {
+                    margin-left: 10%; 
+                    margin-top: 8%; 
+                    font-size: 3.4vw; 
+                }
+                .text2 
+                { 
+                   display: none; 
+                }
+                .t 
+                {
+                     margin-top: 14%;                   
+                    display: block; 
+                    position: absolute;
+                }
+            }
+             .d2
+            {
+              width: 100%; 
+                margin-top: 5%; 
+                margin-left: 0; 
+                font-size: 2.6vw;
+                line-height: 1.8em; 
+                padding-bottom: 16%;
+                img
+                {
+                    position: absolute;
+                    margin-top: 4%; 
+                    margin-left: 0; 
+                    width: 6.5%; 
+                }
+                .zagolovok3
+                {
+                    margin-left: 10%; 
+                    margin-top: 5%; 
+                    font-size: 3.4vw; 
+                }
+                .text2 
+                { 
+                   display: none; 
+                }
+                .t2
+                {
+                     margin-top: 11%;                   
+                    display: block; 
+                    position: absolute;
+                }
+            }
+            .d3
+            {
+                width: 100%; 
+                margin-top: 5%; 
+                margin-left: 0; 
+                font-size: 2.6vw;
+                line-height: 1.8em; 
+                padding-bottom: 16%;
+                img
+                {
+                    position: absolute;
+                    margin-top: 4%; 
+                    margin-left: 0; 
+                    width: 5.5%; 
+                }
+                .zagolovok3
+                {
+                    margin-left: 10%; 
+                    margin-top: 5%; 
+                    font-size: 3.4vw; 
+                }
+                .text2 
+                { 
+                   display: none; 
+                }
+                .t3
+                {
+                     margin-top: 11%;                   
+                    display: block; 
+                    position: absolute;
+                }
+            }
+            .d4
+            {
+                width: 100%; 
+                margin-top: 5%; 
+                margin-left: 0;
+                font-size: 2.6vw;
+                line-height: 1.8em; 
+                padding-bottom: 16%;
+                img
+                {
+                    position: absolute;
+                    margin-top: 4%; 
+                    margin-left: 0; 
+                    width: 5.5%; 
+                }
+                .zagolovok3
+                {
+                    margin-left: 10%; 
+                    margin-top: 5%; 
+                    font-size: 3.4vw; 
+                }
+                .text2 
+                { 
+                   display: none; 
+                }
+                .t4
+                {
+                     margin-top: 11%;                   
+                    display: block; 
+                    position: absolute;
+                }
+            }
+            .d5
+            {
+               width: 100%; 
+               margin-left: 0; 
+                margin-top: 5%; 
+                font-size: 2.6vw; 
+                padding-bottom: 33.2%;
+                img
+                {
+                    position: absolute;
+                    margin-left: 0; 
+                    margin-top: 3.5%; 
+                    width: 7.5%; 
+                }
+                .zagolovok3
+                {
+                    margin-left: 10%; 
+                    margin-top: 5%; 
+                    font-size: 3.4vw; 
+                }
+                .text2 
+                {
+                    display: none; 
+                }
+                .t5 
+                {
+                    display: block; 
+                    position: absolute; 
+                    margin-top: 11%; 
+                }
+            }
+           
+        }
+    }
+    #abz7
+    {
+        margin-left: 5%; 
+        margin-top: 10%; 
+        width: 90%; 
+        font-size: 2.6vw; 
+        overflow: hidden; 
+        .punkt6
+        {
+            font-size: 4vw;  
+        }
+        .bl1 
+        {
+            width: 100%; 
+            padding-bottom: 50%; 
+            .zagolovok4
+            {
+                font-size: 2.6vw;
+                margin-left: 5%;   
+                margin-top: 8%; 
+            }
+            .text3
+            {
+                font-size: 2.6vw; 
+                margin-left: 5%; 
+                margin-top: 12%; 
+            }
+            a
+            {
+                margin-top: 36%; 
+                width: 90%;
+                margin-left: 3%; 
+                img 
+                { 
+                    width: 3%; 
+                }
+            }
+        }
+        .bl2
+        {
+            width: 100%; 
+            padding-bottom: 50%; 
+            margin-left: 0; 
+            display: none; 
+            opacity: 0; 
+        }
+          .bl3
+        {
+            width: 100%; 
+            padding-bottom: 50%; 
+            margin-left: 0; 
+            display: none; 
+            opacity: 0; 
+        }
+          .bl4
+        {
+            width: 100%; 
+            padding-bottom: 50%; 
+            margin-left: 0; 
+            display: none; 
+            opacity: 0; 
+        }
+          .bl5
+        {
+            width: 100%; 
+            padding-bottom: 50%; 
+            margin-left: 0; 
+            display: none; 
+            opacity: 0; 
+        }
+          .bl6
+        {
+            width: 100%; 
+            padding-bottom: 50%; 
+            margin-left: 0; 
+            display: none;
+            opacity: 0;  
+        }
+          .bl7
+        {
+            width: 100%; 
+            padding-bottom: 50%; 
+            margin-left: 0; 
+            display: none; 
+            opacity: 0; 
+        }
+        
+    }
+    #abz8
+    {
+        margin-left: 5%; 
+        width: 90%; 
+        font-size: 2.4vw; 
+        margin-bottom: 9%; 
+        .left3 
+        {
+            margin-left: 0; 
+            width: 30%; 
+            background: url('../img/foto10.jpg') no-repeat; 
+            background-size: 100%;
+            padding-bottom: 68%; 
+        }
+        .right3
+        {
+            width: 70%; 
+            padding-bottom: 68%;   
+            .punkt7
+            {
+                font-size: 4vw;
+                margin-left: 3%; 
+                margin-top: 0;  
+            }
+            .text5
+            {
+                margin-top: 14%; 
+                margin-left: 3%; 
+                line-height: 1.8em; 
+                font-size: 2.4vw; 
+            }
+            a
+            {
+                margin-top: 54.6%; 
+                margin-left: 3%; 
+                padding-left: 0; 
+                width: 35%; 
+                padding-bottom: 3%; 
+                padding-top: 3%; 
+                background: none; 
+                background-color: $cvet3; 
+                font-size: 2.4vw; 
+                color: $cvet1;
+                font-family: $font2;
+                text-align: center;  
+    }
+        }
+    }
+}
+    footer
+{
+    padding-bottom: 5%; 
+    .left4
+    {
+        float: right;
+        margin-left: 0; 
+        width: 60%; 
+        font-size: 2.4vw;
+        text-align: center;
+        h2
+        {
+            font-size: 4vw; 
+        } 
+        .zvonok
+        {
+            margin-top: 6%; 
+            font-size: 2.4vw; 
+        }
+        #phone2 
+        {
+            display: none; 
+        }
+        #phone3
+        {
+            float: left; 
+            width: 100%; 
+            display: block;
+            margin-top: 3%; 
+            a
+            {
+                float: left; 
+                width: 100%; 
+            color: $cvet1;
+            font-family: $font2; 
+            font-size: 2.6vw; 
+            text-align: center;
+        }
+    }
+        .soc 
+        {
+            display: none; 
+        }
+    }
+    .right4
+    {
+        float: left; 
+        width: 40%; 
+       margin-top: 6%; 
+       font-size: 2.4vw;
+       #logo2 
+       {
+        float: left; 
+        margin-left: 35%; 
+        width: 66%; 
+       }
+       #fabrika2
+       {
+        float: right; 
+        width: 94%;
+        margin-right: 6%; 
+        text-align: right;  
+        margin-left: 0; 
+        margin-top: 3%; 
+        font-size: 1.8vw; 
+        letter-spacing: 0.2em; 
+       }
+       #vk1
+       {
+        float: left;
+        margin-left: 35%; 
+        margin-top: 14%;  
+        width: 65%; 
+        font-size: 2.4vw; 
+        img 
+        {
+            margin-top: 2%;  
+            width: 12%; 
+        }
+       }
+       #ins
+       {
+        float: left;
+        margin-left: 35%; 
+        margin-top: 8%;  
+        width: 65%; 
+        font-size: 2.4vw; 
+        img 
+        {
+            width: 12%; 
+        }
+       }
+    }
+    ul 
+    {
+        display: none; 
+    }
+}
+

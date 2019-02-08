@@ -1,0 +1,29 @@
+$cvet1: white; 
+$cvet2: black; 
+$cvet3: #FF8C00;
+$font1: Proximal; 
+$font2: Proximab;
+$font3: Proximaex; 
+*
+{
+    padding: 0; 
+    margin: 0; 
+}
+html 
+{
+    width: 100%; 
+    height: 100%; 
+}
+body 
+{
+    width: 100%; 
+    height: 100%; 
+}
+a
+{
+	text-decoration: none;
+}
+@import "header.scss";
+@import "content.scss";
+@import "footer.scss";
+@import "fonts.scss";

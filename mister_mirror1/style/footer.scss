@@ -1,0 +1,162 @@
+footer
+{
+    float: left; 
+    width: 100%; 
+    background: url('../img/footer.png') no-repeat; 
+    background-size: 100% 100%; 
+    font-family: $font1; 
+    color: $cvet1;
+    .left4
+    {
+        float: left; 
+        margin-top: 6%; 
+        margin-left: 23%; 
+        width: 35%; 
+        font-size: 0.9vw;
+        h2
+        {
+            float: left; 
+            width: 100%; 
+            font-size: 2vw; 
+        } 
+        .zvonok
+        {
+            float: left; 
+            width: 100%; 
+            margin-top: 10%; 
+            font-family: $font2; 
+            font-size: 1.02vw; 
+        }
+        #phone2 
+        {
+            float: left; 
+            width: 100%; 
+            margin-top: 2%; 
+            font-size: 1vw; 
+            span 
+            {
+                font-family: $font2;
+                font-size: 1.02vw; 
+            }
+        }
+        #phone3
+        {
+            display: none;
+        }
+        .soc 
+        {
+            float: left; 
+            width: 100%; 
+            opacity: .5; 
+            font-size: 0.9vw; 
+            margin-top: 7%; 
+        }
+    }
+    .right4
+    {
+        float: left; 
+        width: 19%; 
+       margin-top: 6%; 
+       font-size: 0.9vw;
+       #logo2 
+       {
+        float: left; 
+        margin-left: 5%; 
+        width: 46%; 
+        height: auto; 
+        height: auto/9; 
+       }
+       #fabrika2
+       {
+        float: left; 
+        width: 95%; 
+        margin-left: 5%; 
+        margin-top: 3%; 
+        font-size: 0.64vw; 
+        letter-spacing: 0.4em; 
+       }
+       #vk1
+       {
+        float: left;
+        margin-left: 5%; 
+        margin-top: 32%;  
+        width: 95%; 
+        color: $cvet1;
+        font-size: 1vw; 
+          transition-property: color;
+                transition-duration: 0.5s; 
+                -moz-transition-property: color;
+                -moz-transition-duration: 0.5s; 
+                -webkit-transition-property: color;
+                -webkit-transition-duration: 0.5s; 
+                -o-transition-property: color;
+                -o-transition-duration: 0.5s;
+        img 
+        {
+            float: left;
+            margin-top: 1%;  
+            width: 8%; 
+            height: auto;
+            height: auto/9; 
+        }
+        span
+        {
+            float: left; 
+            margin-left: 7%; 
+        }
+       }
+       #vk1:hover
+       {
+        color: $cvet3; 
+       }
+       #ins
+       {
+        float: left;
+        margin-left: 5%; 
+        margin-top: 5%;  
+        width: 95%; 
+        color: $cvet1;
+        font-size: 1vw; 
+          transition-property: color;
+                transition-duration: 0.5s; 
+                -moz-transition-property: color;
+                -moz-transition-duration: 0.5s; 
+                -webkit-transition-property: color;
+                -webkit-transition-duration: 0.5s; 
+                -o-transition-property: color;
+                -o-transition-duration: 0.5s;
+        img 
+        {
+            float: left;
+            width: 8%; 
+            height: auto;
+            height: auto/9; 
+        }
+        span
+        {
+            float: left; 
+            margin-left: 7%; 
+        }
+       }
+    }
+     #ins:hover
+       {
+        color: $cvet3; 
+       }
+    ul 
+    {
+        float: left; 
+        margin-left: 23%; 
+        width: 54%;
+        margin-top: 4.4%; 
+        padding-bottom: 2.5%; 
+        list-style: none; 
+        font-size: 0.7vw; 
+        li 
+        {
+        float: left; 
+        width: 33.3%; 
+        display: inline-block;
+        }
+    }
+}
